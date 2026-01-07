@@ -10,7 +10,7 @@ FDV_Sonido
 # Objetivo
 Aprender a manejar el tema de sonido en Unity.
 
-## Ejercicio 1: Componente AudioSource
+## Parte 1: Componente AudioSource
 
 ### Tarea1: Configurar una escena simple en 3D con un objeto cubo que hará de player y varias esferas de color. Agregar un objeto AudioSource desde el menú GameObject → Audio. Seleccionar un clip de audio en algún paquete de la Asset Store de tu gusto y adjuntarlo a una esfera. El audio se debe reproducir en cuanto se carga la escena y en bucle.
 
@@ -57,4 +57,11 @@ public class FastMover : MonoBehaviour
 Resultado：
 No habrá sonido cuando está fuera del rango.
 ![alt text](Unity_cTRU32V9mS.gif)
+
+### El uso de Reverb Zone
+**Reverb Zone** es una "zona de efecto de reverberación de sonido" que produce un efecto de eco o reverberación cuando la fuente de audio ingresa a esta zona.
+![alt text](image-2.png)
+
+
+## Parte 2: Componente AudioSourceAudio Mixer
 
