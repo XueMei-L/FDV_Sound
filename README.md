@@ -8,15 +8,16 @@ FDV_Sonido
 ```
 
 # Objetivo
+Aprender a manejar el tema de sonido en Unity.
 
 ## Ejercicio 1: Componente AudioSource
 
-### Tarea: Configurar una escena simple en 3D con un objeto cubo que hará de player y varias esferas de color. Agregar un objeto AudioSource desde el menú GameObject → Audio. Seleccionar un clip de audio en algún paquete de la Asset Store de tu gusto y adjuntarlo a una esfera. El audio se debe reproducir en cuanto se carga la escena y en bucle.
+### Tarea1: Configurar una escena simple en 3D con un objeto cubo que hará de player y varias esferas de color. Agregar un objeto AudioSource desde el menú GameObject → Audio. Seleccionar un clip de audio en algún paquete de la Asset Store de tu gusto y adjuntarlo a una esfera. El audio se debe reproducir en cuanto se carga la escena y en bucle.
 
-### 1. Crear un cubo como player y crear varias esferas de color
-
-### Configuración de 
-
+1. Crear un cubo como player y crear varias esferas de color
+2. Buscar un audio en Asset Store y configuración de AudioSource
+3. Cuando dar play, suena el audio en bucle, se puede configurar pitch y volume para controlar la velocidad y volumen del audio.
+![alt text](image.png)
 
 
 
