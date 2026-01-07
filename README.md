@@ -19,9 +19,42 @@ Aprender a manejar el tema de sonido en Unity.
 3. Cuando dar play, suena el audio en bucle, se puede configurar pitch y volume para controlar la velocidad y volumen del audio.
 ![alt text](image.png)
 
-
-
-### Tarea: En la escena anterior crea un objeto con una fuente de audio a la que le configures el efecto Doppler elevado y que se mueva al pulsar la tecla m a una velocidad alta. Explica los efectos que produce: 
+### Tarea2: En la escena anterior crea un objeto con una fuente de audio a la que le configures el efecto Doppler elevado y que se mueva al pulsar la tecla m a una velocidad alta. Explica los efectos que produce: 
 ### Incrementar el valor del parámetro Spread.
 ### Cambiar la configuración de Min Distance y Max Distance
 ### Cambiar la curva de Logarithmic Rollof a Linear Rollof
+
+1. Reutilizar una esfera del escenario anterior
+2. Configurar que Spatial Blend es 3D, en 2D no se cambia el sonido
+3. Modificar el valor de Doppler Level = 3
+4. Modificar valor de Spread = 180
+5. Modificar Min Distance y Max Distance
+6. Modificar Volume Rolloff = Linear Rolloff
+7. Crear el **script** "Move.cs" para asignar a la esfera mensionada.
+   
+*Move.cs*
+
+```
+using UnityEngine.InputSystem;
+
+public class FastMover : MonoBehaviour
+{
+    public float speed = 10f;
+
+    void Update()
+    {
+        if (Keyboard.current.mKey.isPressed)
+        {
+            // Mover hacia delante
+            transform.Translate(Vector3.forward * speed * Time.deltaTime);
+        }
+    }
+}
+
+```
+![alt text](image-1.png)
+
+Resultado：
+No habrá sonido cuando está fuera del rango.
+![alt text](Unity_cTRU32V9mS.gif)
+
