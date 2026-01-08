@@ -63,5 +63,13 @@ No habrá sonido cuando está fuera del rango.
 ![alt text](image-2.png)
 
 
-## Parte 2: Componente AudioSourceAudio Mixer
+## Parte 2: Audio Mixer
+1. Crear un mixer
+2. Crear dos grupos, uno para la música del fondo y otro para el efecto de la esfera.
+3. Poner efecto **lowpass** para el efecto de musica para que suena mejor.
 
+![alt text](image-4.png)
+![alt text](image-3.png)
+
+Resultado:
+![alt text](Unity_tl3AeVyT7d.gif)
